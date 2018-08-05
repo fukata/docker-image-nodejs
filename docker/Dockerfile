@@ -3,6 +3,10 @@ FROM node:8.11.3-jessie
 ENV LANG C.UTF-8
 
 RUN apt-get install libstdc++6 && \
+    add-apt-repository ppa:ubuntu-toolchain-r/test && \
+    apt-get update && \
+    apt-get upgrade && \
+    apt-get dist-upgrade && \
     npm install -g npm@6.2.0 && \
     npm install -g nodemon
 
