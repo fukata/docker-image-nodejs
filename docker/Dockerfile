@@ -1,4 +1,4 @@
-FROM node:8.11.3-streth
+FROM node:8.11.3-stretch
 
 ENV LANG C.UTF-8
 
