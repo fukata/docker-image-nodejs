@@ -2,7 +2,8 @@ FROM node:8.11.3-jessie
 
 ENV LANG C.UTF-8
 
-RUN npm install -g npm@6.2.0 && \
+RUN apt-get install libstdc++6 && \
+    npm install -g npm@6.2.0 && \
     npm install -g nodemon
 
 ENV ENTRYKIT_VERSION 0.4.0
