@@ -18,5 +18,4 @@ RUN mkdir /app
 WORKDIR /app
 
 ENTRYPOINT [ \
-  "prehook", "node -v", "--", \
-  "prehook", "npm install", "--"]
+  "prehook", "node -v", "--"]
