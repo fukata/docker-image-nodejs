@@ -1,8 +1,8 @@
-FROM node:8.11.3-stretch
+FROM node:8.11.4-stretch
 
 ENV LANG C.UTF-8
 
-RUN npm install -g npm@6.2.0 && \
+RUN npm install -g npm@6.4.1 && \
     npm install -g nodemon
 
 ENV ENTRYKIT_VERSION 0.4.0
