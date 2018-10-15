@@ -3,7 +3,8 @@ FROM node:8.11.4-stretch
 ENV LANG C.UTF-8
 
 RUN npm install -g npm@6.4.1 && \
-    npm install -g nodemon
+    npm install -g nodemon && \
+    npm isntall -g http-server
 
 ENV ENTRYKIT_VERSION 0.4.0
 RUN wget https://github.com/progrium/entrykit/releases/download/v${ENTRYKIT_VERSION}/entrykit_${ENTRYKIT_VERSION}_Linux_x86_64.tgz \
