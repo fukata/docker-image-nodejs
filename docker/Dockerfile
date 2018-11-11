@@ -1,8 +1,8 @@
-FROM node:8.11.4-stretch
+FROM node:10.13-stretch
 
 ENV LANG C.UTF-8
 
-RUN npm install -g npm@6.4.1 && \
+RUN npm install -g npm && \
     npm install -g nodemon && \
     npm isntall -g http-server
 
