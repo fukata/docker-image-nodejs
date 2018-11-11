@@ -1,2 +1,2 @@
-# docker-image-nuxtjs
-Docker image for nuxt.js
+# docker-image-node.js
+Docker image for node.js
