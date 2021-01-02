@@ -1,4 +1,4 @@
-FROM node:14-stretch
+FROM node:15-stretch
 
 ENV LANG C.UTF-8
 
