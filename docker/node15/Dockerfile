@@ -2,10 +2,7 @@ FROM node:15-stretch
 
 ENV LANG C.UTF-8
 
-RUN npm install -g npm && \
-    npm install -g nodemon && \
-    npm isntall -g http-server && \
-    npm install -g live-server
+RUN npm install -g nodemon
 
 ENV ENTRYKIT_VERSION 0.4.0
 RUN wget https://github.com/progrium/entrykit/releases/download/v${ENTRYKIT_VERSION}/entrykit_${ENTRYKIT_VERSION}_Linux_x86_64.tgz \
