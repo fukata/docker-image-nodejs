@@ -4,8 +4,7 @@ ENV LANG C.UTF-8
 
 RUN npm install -g npm && \
     npm install -g nodemon && \
-    npm isntall -g http-server && \
-    npm install -g live-server && \
+    npm install -g http-server && \
     npm install -g sass
 
 ENV ENTRYKIT_VERSION 0.4.0
