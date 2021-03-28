@@ -2,7 +2,7 @@ FROM node:14-stretch
 
 ENV LANG C.UTF-8
 
-RUN npm install -g npm && \
+RUN npm install -g npm@6.14.12 && \
     npm install -g nodemon && \
     npm install -g http-server && \
     npm install -g sass
